@@ -1,1 +1,1 @@
-This is my first project in TOP. I will be using HTML and CSS to build google.com clone. 
+This is my first project in TOP. I will be using HTML and CSS to build google.com clone
