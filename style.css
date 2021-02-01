@@ -151,22 +151,28 @@ align-content: center;
   }
 
 @media only screen and (max-width: 460px) {
+
     footer {
 height: 150px;
 }
+
 .foot1, .foot2 {
 text-align: center;
 }
+
 footer a {
     font-size: 12px;
 }
+
 .foot1 {
     padding-top: 10px;
 }
+
 .foot2 {
     padding-bottom: 20px;
 margin-top: 1px;
 }
+
   }
 
 textarea:focus, input:focus{
