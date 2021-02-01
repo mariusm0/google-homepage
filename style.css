@@ -5,7 +5,7 @@ html {
 a {
     text-decoration: none;
     padding-right: 15px;
-    color: rgba(0,0,0,0.87);
+    color: rgba(0, 0, 0, 0.87);
     font-size: 13px;
 }
 
@@ -18,12 +18,13 @@ a {
 }
 
 a::after {
-    color: rgba(0,0,0,0.87)
+    color: rgba(0, 0, 0, 0.87)
 }
 
 a:hover {
     text-decoration: underline;
 }
+
 nav {
     display: flex;
     justify-content: flex-end;
@@ -40,7 +41,7 @@ nav {
     height: 32px;
     margin-right: 20px;
     margin-top: 4px;
-  }
+}
 
 #google {
     width: 275px;
@@ -50,11 +51,10 @@ nav {
 
 #search {
     border-radius: 20px;
-    width: 55%;
+    width: 40%;
     height: 40px;
     margin-top: -25px;
-    border: 0.1px solid;
-    color: rgba(158, 158, 158, 0.404);
+    border: 0.1px solid rgba(158, 158, 158, 0.404);
     margin-bottom: 20px;
 }
 
@@ -70,12 +70,12 @@ main {
 }
 
 button {
-    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
     background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
     border-radius: 4px;
     color: #5F6368;
-    font-family: arial,sans-serif;
+    font-family: arial, sans-serif;
     font-size: 14px;
     margin: 11px 4px;
     padding: 0 16px;
@@ -93,19 +93,16 @@ button:hover {
 
 footer {
     display: flex;
-    flex-wrap: wrap;
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 40px;  
+    height: 40px;
     background-color: #f2f2f2;
     border-top: 0.5px solid #70757a23;
-    margin-left: -5px;
-    margin-right: -5px;
-    flex-flow: wrap column-reverse;
-justify-content: center;
-align-items: flex-end;
-align-content: space-between;
+    flex-flow: wrap column;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: space-between;
 }
 
 footer a {
@@ -114,8 +111,12 @@ footer a {
 }
 
 .foot1, .foot2 {
- margin: 12px;
- margin-left: 20px;
- margin-right: 20px;
+    margin: 12px;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+#privacy {
+    margin-left: -20px;
 }
 
