@@ -1,6 +1,8 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
 }
+
 
 a {
     text-decoration: none;
@@ -63,12 +65,6 @@ nav {
     box-shadow: 1px 2px 8px rgba(158, 158, 158, 0.404);
 }
 
-@media only screen and (max-width: 700px) {
-    #search {
-width: 60%;    
-}
-  }
-
 main {
     display: flex;
     flex-direction: column;
@@ -100,16 +96,17 @@ button:hover {
 
 footer {
     display: flex;
-    position: absolute;
     bottom: 0;
     width: 100%;
     height: 40px;
+    position: absolute;
     background-color: #f2f2f2;
     border-top: 0.5px solid #70757a23;
     flex-flow: wrap column;
-    justify-content: center;
     align-items: flex-end;
     align-content: space-between;
+    margin-left: -10px;
+    margin-right: -40px;
 }
 
 footer a {
@@ -120,10 +117,48 @@ footer a {
 .foot1, .foot2 {
     margin: 12px;
     margin-left: 20px;
-    margin-right: 5px;
+    margin-right: 20px;
 }
 
-#privacy {
-    margin-left: -20px;
+.foot2 {
+    position: absolute;
 }
+
+.foot2:first-child {
+    padding-left: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+    #search {
+width: 60%;    
+}
+footer {
+height: 100px;
+align-content: center;
+}
+.foot2 {
+    position: relative;
+    align-self: center;
+}
+  }
+
+@media only screen and (max-width: 460px) {
+    footer {
+height: 150px;
+}
+.foot1, .foot2 {
+text-align: center;
+}
+footer a {
+    font-size: 12px;
+}
+.foot1 {
+    padding-top: 10px;
+}
+.foot2 {
+    padding-bottom: 20px;
+margin-top: 1px;
+}
+  }
+
 
