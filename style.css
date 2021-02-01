@@ -54,12 +54,19 @@ nav {
 #search {
     border-radius: 24px;
     display: flex;
-    width: 582px;
+    width: 460px;
     height: 44px;
     margin-top: -25px;
     border: 0.1px solid rgba(158, 158, 158, 0.404);
     margin-bottom: 20px;
+    background-image: url(images/mic.png), url(images/search.png);
+    background-repeat: no-repeat;
+    background-size: 15px 20px, 15px 15px;
+  background-position-x: 95%, 5%;;
+  background-position-y: center;
 }
+
+
 
 #search:hover {
     box-shadow: 1px 2px 8px rgba(158, 158, 158, 0.404);
@@ -107,6 +114,7 @@ footer {
     align-content: space-between;
     margin-left: -10px;
     margin-right: -40px;
+    padding-bottom: 8px;
 }
 
 footer a {
@@ -160,5 +168,19 @@ footer a {
 margin-top: 1px;
 }
   }
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+textarea, input {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+
+
+
+
 
 
