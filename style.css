@@ -142,6 +142,7 @@ width: 60%;
 footer {
 height: 100px;
 align-content: center;
+flex-flow: wrap column-reverse;
 }
 .foot2 {
     position: relative;
